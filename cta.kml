@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Odessa</name>
+    <description>Odessa cabel lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+30.771091500,46.584884600,0
+30.771148700,46.585258500,0
+30.772394200,46.585399600,0
+30.773710300,46.585521700,0
+30.774610500,46.585598000,0
+30.775579500,46.585598000,0
+30.776561700,46.585495000,0
+30.777849200,46.585247000,0
+30.778446200,46.585094500,0
+30.780218100,46.584247600,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Red Line</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+30.780019800,46.574493400,0
+30.775703400,46.575626400,0
+30.773681600,46.576004000,0
+30.773170500,46.576129900,0
+30.772102400,46.576301600,0
+30.771799100,46.576339700,0
+30.772172900,46.577957200,0
+30.772380800,46.577907600,0
+30.774013500,46.583553300,0
+30.771162000,46.583820300,0
+30.771188700,46.583999600,0
+30.770814900,46.584049200,0
+30.770898800,46.584884600,0
+30.771099100,46.584884600,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Green Line</name>
+      <styleUrl>#greenLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+30.771944000,46.584167500,0
+30.772001300,46.584857900,0
+30.771099100,46.584884600,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+
+
+  </Document>
+</kml>
